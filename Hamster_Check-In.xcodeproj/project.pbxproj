@@ -15,6 +15,8 @@
 		106ACFBF2BABFCA6002B9A68 /* Hamster_Check_InTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFBE2BABFCA6002B9A68 /* Hamster_Check_InTests.swift */; };
 		106ACFC92BABFCA6002B9A68 /* Hamster_Check_InUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFC82BABFCA6002B9A68 /* Hamster_Check_InUITests.swift */; };
 		106ACFCB2BABFCA6002B9A68 /* Hamster_Check_InUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFCA2BABFCA6002B9A68 /* Hamster_Check_InUITestsLaunchTests.swift */; };
+		106ACFDA2BAC05C0002B9A68 /* HamsterIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFD92BAC05C0002B9A68 /* HamsterIconView.swift */; };
+		106ACFDC2BAC08FE002B9A68 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFDB2BAC08FE002B9A68 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		106ACFC42BABFCA6002B9A68 /* Hamster_Check-InUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hamster_Check-InUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		106ACFC82BABFCA6002B9A68 /* Hamster_Check_InUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamster_Check_InUITests.swift; sourceTree = "<group>"; };
 		106ACFCA2BABFCA6002B9A68 /* Hamster_Check_InUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamster_Check_InUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		106ACFD92BAC05C0002B9A68 /* HamsterIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamsterIconView.swift; sourceTree = "<group>"; };
+		106ACFDB2BAC08FE002B9A68 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,13 @@
 		106ACFAA2BABFCA2002B9A68 /* Hamster_Check-In */ = {
 			isa = PBXGroup;
 			children = (
+				106ACFDF2BAC0E9B002B9A68 /* ViewModels */,
+				106ACFDE2BAC0E7C002B9A68 /* Models */,
+				106ACFDD2BAC0E68002B9A68 /* Views */,
 				106ACFAB2BABFCA2002B9A68 /* Hamster_Check_InApp.swift */,
 				106ACFAD2BABFCA2002B9A68 /* ContentView.swift */,
+				106ACFD92BAC05C0002B9A68 /* HamsterIconView.swift */,
+				106ACFDB2BAC08FE002B9A68 /* ProfileView.swift */,
 				106ACFAF2BABFCA2002B9A68 /* Item.swift */,
 				106ACFB12BABFCA5002B9A68 /* Assets.xcassets */,
 				106ACFB32BABFCA5002B9A68 /* Preview Content */,
@@ -128,6 +137,27 @@
 				106ACFCA2BABFCA6002B9A68 /* Hamster_Check_InUITestsLaunchTests.swift */,
 			);
 			path = "Hamster_Check-InUITests";
+			sourceTree = "<group>";
+		};
+		106ACFDD2BAC0E68002B9A68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		106ACFDE2BAC0E7C002B9A68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		106ACFDF2BAC0E9B002B9A68 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106ACFDA2BAC05C0002B9A68 /* HamsterIconView.swift in Sources */,
 				106ACFAE2BABFCA2002B9A68 /* ContentView.swift in Sources */,
+				106ACFDC2BAC08FE002B9A68 /* ProfileView.swift in Sources */,
 				106ACFB02BABFCA2002B9A68 /* Item.swift in Sources */,
 				106ACFAC2BABFCA2002B9A68 /* Hamster_Check_InApp.swift in Sources */,
 			);
