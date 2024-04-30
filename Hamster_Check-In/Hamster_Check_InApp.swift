@@ -10,6 +10,7 @@ import SwiftData
 
 @main
 struct Hamster_Check_InApp: App {
+    /*
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -22,11 +23,13 @@ struct Hamster_Check_InApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
-
+*/
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToDoView()
         }
-        .modelContainer(sharedModelContainer)
+        //.modelContainer(for: User.self)
+        .modelContainer(for: ToDoItem.self)
+        //.modelContainer(sharedModelContainer)
     }
 }

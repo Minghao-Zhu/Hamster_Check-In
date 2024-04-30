@@ -17,6 +17,13 @@
 		106ACFCB2BABFCA6002B9A68 /* Hamster_Check_InUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFCA2BABFCA6002B9A68 /* Hamster_Check_InUITestsLaunchTests.swift */; };
 		106ACFDA2BAC05C0002B9A68 /* HamsterIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFD92BAC05C0002B9A68 /* HamsterIconView.swift */; };
 		106ACFDC2BAC08FE002B9A68 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFDB2BAC08FE002B9A68 /* ProfileView.swift */; };
+		106ACFE12BAE830E002B9A68 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFE02BAE830E002B9A68 /* NoteView.swift */; };
+		106ACFE32BAE83FF002B9A68 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFE22BAE83FF002B9A68 /* User.swift */; };
+		106ACFE52BB402C8002B9A68 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFE42BB402C8002B9A68 /* EditUserView.swift */; };
+		106ACFE72BDA2B79002B9A68 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFE62BDA2B79002B9A68 /* ToDoItem.swift */; };
+		106ACFEB2BDA2FA3002B9A68 /* CreateToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFEA2BDA2FA3002B9A68 /* CreateToDoView.swift */; };
+		106ACFED2BDA33A2002B9A68 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFEC2BDA33A2002B9A68 /* ToDoView.swift */; };
+		106ACFEF2BE0CD4B002B9A68 /* UpdateToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ACFEE2BE0CD4B002B9A68 /* UpdateToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,13 @@
 		106ACFCA2BABFCA6002B9A68 /* Hamster_Check_InUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamster_Check_InUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		106ACFD92BAC05C0002B9A68 /* HamsterIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamsterIconView.swift; sourceTree = "<group>"; };
 		106ACFDB2BAC08FE002B9A68 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		106ACFE02BAE830E002B9A68 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		106ACFE22BAE83FF002B9A68 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		106ACFE42BB402C8002B9A68 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		106ACFE62BDA2B79002B9A68 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		106ACFEA2BDA2FA3002B9A68 /* CreateToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToDoView.swift; sourceTree = "<group>"; };
+		106ACFEC2BDA33A2002B9A68 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		106ACFEE2BE0CD4B002B9A68 /* UpdateToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +118,6 @@
 				106ACFDE2BAC0E7C002B9A68 /* Models */,
 				106ACFDD2BAC0E68002B9A68 /* Views */,
 				106ACFAB2BABFCA2002B9A68 /* Hamster_Check_InApp.swift */,
-				106ACFAD2BABFCA2002B9A68 /* ContentView.swift */,
-				106ACFD92BAC05C0002B9A68 /* HamsterIconView.swift */,
-				106ACFDB2BAC08FE002B9A68 /* ProfileView.swift */,
 				106ACFAF2BABFCA2002B9A68 /* Item.swift */,
 				106ACFB12BABFCA5002B9A68 /* Assets.xcassets */,
 				106ACFB32BABFCA5002B9A68 /* Preview Content */,
@@ -142,6 +153,14 @@
 		106ACFDD2BAC0E68002B9A68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				106ACFAD2BABFCA2002B9A68 /* ContentView.swift */,
+				106ACFD92BAC05C0002B9A68 /* HamsterIconView.swift */,
+				106ACFDB2BAC08FE002B9A68 /* ProfileView.swift */,
+				106ACFE02BAE830E002B9A68 /* NoteView.swift */,
+				106ACFE42BB402C8002B9A68 /* EditUserView.swift */,
+				106ACFEA2BDA2FA3002B9A68 /* CreateToDoView.swift */,
+				106ACFEC2BDA33A2002B9A68 /* ToDoView.swift */,
+				106ACFEE2BE0CD4B002B9A68 /* UpdateToDoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +168,8 @@
 		106ACFDE2BAC0E7C002B9A68 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				106ACFE22BAE83FF002B9A68 /* User.swift */,
+				106ACFE62BDA2B79002B9A68 /* ToDoItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -290,11 +311,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106ACFED2BDA33A2002B9A68 /* ToDoView.swift in Sources */,
 				106ACFDA2BAC05C0002B9A68 /* HamsterIconView.swift in Sources */,
 				106ACFAE2BABFCA2002B9A68 /* ContentView.swift in Sources */,
+				106ACFEF2BE0CD4B002B9A68 /* UpdateToDoView.swift in Sources */,
+				106ACFEB2BDA2FA3002B9A68 /* CreateToDoView.swift in Sources */,
+				106ACFE72BDA2B79002B9A68 /* ToDoItem.swift in Sources */,
+				106ACFE12BAE830E002B9A68 /* NoteView.swift in Sources */,
 				106ACFDC2BAC08FE002B9A68 /* ProfileView.swift in Sources */,
 				106ACFB02BABFCA2002B9A68 /* Item.swift in Sources */,
+				106ACFE52BB402C8002B9A68 /* EditUserView.swift in Sources */,
 				106ACFAC2BABFCA2002B9A68 /* Hamster_Check_InApp.swift in Sources */,
+				106ACFE32BAE83FF002B9A68 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
